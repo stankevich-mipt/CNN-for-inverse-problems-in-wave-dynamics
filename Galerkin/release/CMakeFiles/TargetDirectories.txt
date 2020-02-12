@@ -1,0 +1,11 @@
+/home/andrey/fracture_detection/Galerkin/release/CMakeFiles/rebuild_cache.dir
+/home/andrey/fracture_detection/Galerkin/release/CMakeFiles/edit_cache.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/rebuild_cache.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/edit_cache.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/MeshBuilder/CMakeFiles/rebuild_cache.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/MeshBuilder/CMakeFiles/meshbuilder.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/MeshBuilder/CMakeFiles/edit_cache.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner/CMakeFiles/rebuild_cache.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir
+/home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner/CMakeFiles/edit_cache.dir

@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="3rdparty">
+      <UniqueIdentifier>{ac471096-87ac-4030-a2f5-2041b880e588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshBuilder">
+      <UniqueIdentifier>{ca2a8b95-e7e7-425c-b35d-e4f573b2ea4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshBuilder\SpecificMeshBuilders">
+      <UniqueIdentifier>{b6e3e125-d932-4a1c-b359-4143a43ba4b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3rdparty\TinyXML">
+      <UniqueIdentifier>{0fb63676-4e3f-49c7-b01e-ca4f9f28ba59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeomMesh">
+      <UniqueIdentifier>{dc7a9eb8-faf4-458d-8bf8-117f647a4d3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeomMesh\GeomMesh">
+      <UniqueIdentifier>{4a34aa2b-3813-4afa-825a-9b8a810f1ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeomMesh\MeshIO">
+      <UniqueIdentifier>{f60cb826-9b83-495f-9704-1a3151a73925}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeomMesh\MeshIO\Local">
+      <UniqueIdentifier>{e3d8a652-02e3-41f1-8621-eff6f06fa997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GeomMesh\MeshIO\Distributed">
+      <UniqueIdentifier>{717e6c46-64e2-4766-98f6-5a63d5cb7973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{6e75c038-e7b2-42fa-9383-c6464395f43e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DifferentialSolvers">
+      <UniqueIdentifier>{e61754b6-1969-44ad-87b1-b6c1e282e9ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DifferentialSolvers\Solvers">
+      <UniqueIdentifier>{12d16314-0de8-497e-89bd-ecb73708fc8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MeshBuilder\MeshSplitter">
+      <UniqueIdentifier>{029ca0a6-27ac-49e6-b325-4d84ca633050}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\3rdparty\tinyxml\tinystr.cpp">
+      <Filter>3rdparty\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty\tinyxml\tinyxml.cpp">
+      <Filter>3rdparty\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty\tinyxml\tinyxmlerror.cpp">
+      <Filter>3rdparty\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\3rdparty\tinyxml\tinyxmlparser.cpp">
+      <Filter>3rdparty\TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Task\MeshBuilder\MeshBuilder.cpp">
+      <Filter>MeshBuilder</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\3rdparty\tinyxml\tinystr.h">
+      <Filter>3rdparty\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\3rdparty\tinyxml\tinyxml.h">
+      <Filter>3rdparty\TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\MeshBuilder\SpecificMeshBuilders\UnstructuredMeshBuilder.h">
+      <Filter>MeshBuilder\SpecificMeshBuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\MeshBuilder\MeshDistributor.h">
+      <Filter>MeshBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\TimeHierarchyLevelsManager.h">
+      <Filter>GeomMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\TopologyReconstructor.h">
+      <Filter>GeomMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\DisjointSetBuilder.h">
+      <Filter>GeomMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\BucketStorage.h">
+      <Filter>GeomMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\MeshIO\Local\MeshIOBase.h">
+      <Filter>GeomMesh\MeshIO\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\MeshIO\Local\MeshIO.h">
+      <Filter>GeomMesh\MeshIO\Local</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\MeshIO\Distributed\DistributedMeshIO.h">
+      <Filter>GeomMesh\MeshIO\Distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\GeomMesh\AdditionalCellInfo.h">
+      <Filter>GeomMesh\GeomMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\GeomMesh\GeomMesh.h">
+      <Filter>GeomMesh\GeomMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\MeshBuilder\SpecificMeshBuilders\BasicMeshBuilder.h">
+      <Filter>MeshBuilder\SpecificMeshBuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\MeshBuilder\SpecificMeshBuilders\SalomeMeshBuilder.h">
+      <Filter>MeshBuilder\SpecificMeshBuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\MeshBuilder\SpecificMeshBuilders\SpecificMeshBuilders.h">
+      <Filter>MeshBuilder\SpecificMeshBuilders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\AABBTree.h">
+      <Filter>GeomMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\DifferentialSolver.h">
+      <Filter>DifferentialSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\DifferentialSystem.h">
+      <Filter>DifferentialSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\SolversFactory.h">
+      <Filter>DifferentialSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\SolverState.h">
+      <Filter>DifferentialSolvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\Solvers\DormandPrinceSolver.h">
+      <Filter>DifferentialSolvers\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\Solvers\EulerSolver.h">
+      <Filter>DifferentialSolvers\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\Solvers\RungeSolver12_14.h">
+      <Filter>DifferentialSolvers\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\Solvers\RungeSolver8_10.h">
+      <Filter>DifferentialSolvers\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DifferentialSolvers\Solvers\TrapezoidSolver.h">
+      <Filter>DifferentialSolvers\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Utils\Base64.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\MeshBuilder\MeshSplitter\MeshSplitterCommon.h">
+      <Filter>MeshBuilder\MeshSplitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\MeshBuilder\MeshSplitter\MeshSplitter.h">
+      <Filter>MeshBuilder\MeshSplitter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\MeshBuilder\MeshChecker.h">
+      <Filter>MeshBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\MeshIO\Distributed\TransitionInfo.h">
+      <Filter>GeomMesh\MeshIO\Distributed</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\GeomMesh\GeomMeshBase.h">
+      <Filter>GeomMesh\GeomMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Task\GeomMesh\GeomMesh\GeomMeshCommon.h">
+      <Filter>GeomMesh\GeomMesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\Task\GeomMesh\MeshIO\Local\MeshIO2.inl">
+      <Filter>GeomMesh\MeshIO\Local</Filter>
+    </None>
+    <None Include="..\..\src\Task\GeomMesh\MeshIO\Local\MeshIO3.inl">
+      <Filter>GeomMesh\MeshIO\Local</Filter>
+    </None>
+    <None Include="..\..\src\Task\GeomMesh\GeomMesh\GeomMesh3.inl">
+      <Filter>GeomMesh\GeomMesh</Filter>
+    </None>
+    <None Include="..\..\src\Task\GeomMesh\GeomMesh\GeomMesh2.inl">
+      <Filter>GeomMesh\GeomMesh</Filter>
+    </None>
+    <None Include="..\..\src\Task\GeomMesh\MeshIO\Local\MeshIO.inl">
+      <Filter>GeomMesh\MeshIO\Local</Filter>
+    </None>
+    <None Include="..\..\src\Task\GeomMesh\MeshIO\Distributed\DistributedMeshIO.inl">
+      <Filter>GeomMesh\MeshIO\Distributed</Filter>
+    </None>
+    <None Include="..\..\src\Task\MeshBuilder\MeshSplitter\MeshSplitterCommon.inl">
+      <Filter>MeshBuilder\MeshSplitter</Filter>
+    </None>
+    <None Include="..\..\src\Task\MeshBuilder\MeshSplitter\MeshSplitter2.inl">
+      <Filter>MeshBuilder\MeshSplitter</Filter>
+    </None>
+    <None Include="..\..\src\Task\MeshBuilder\MeshSplitter\MeshSplitter3.inl">
+      <Filter>MeshBuilder\MeshSplitter</Filter>
+    </None>
+    <None Include="..\..\src\Task\GeomMesh\GeomMesh\GeomMeshCommon.inl">
+      <Filter>GeomMesh\GeomMesh</Filter>
+    </None>
+    <None Include="..\..\src\Task\GeomMesh\GeomMesh\GeomMeshBase.inl">
+      <Filter>GeomMesh\GeomMesh</Filter>
+    </None>
+  </ItemGroup>
+</Project>
