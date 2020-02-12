@@ -229,6 +229,14 @@ private:
             AABB(hydrodynamicResistanceInfo.boxPoint1, hydrodynamicResistanceInfo.boxPoint2), hydrodynamicResistanceInfo.mediumRho,
             hydrodynamicResistanceInfo.flowVelocity, hydrodynamicResistanceInfo.alpha, hydrodynamicResistanceInfo.beta));
         } break;
+        case BoundarySection::VectorFunctor::GaussianOsc:
+        {
+          typename BoundarySection::GaussianOscFunctorInfo gaussianOscInfo =
+            settings.mesh.boundarySection.gaussianOscFunctorInfos[func.infoIndex];
+          combinedFunctor->Add(new GaussianOscVectorFunctor<Space>(
+              gaussianOscInfo.center, gaussianOscInfo.waveVector, gaussianOscInfo.waveLength, gaussianOscInfo.initialPhase, 
+              gaussianOscInfo.speed, gaussianOscInfo.startTime, gaussianOscInfo.maxTime, gaussianOscInfo.shear)); 
+        } break;
       }
     }
     return combinedFunctor->IsEmpty() ? 0 : combinedFunctor;

@@ -46,10 +46,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/andrey/fracture_detection/Galerkin
+CMAKE_SOURCE_DIR = /home/andrey/fracture_detection/Galerkin/volume
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/andrey/fracture_detection/Galerkin/release
+CMAKE_BINARY_DIR = /home/andrey/fracture_detection/Galerkin/volume/release
 
 # Include any dependencies generated for this target.
 include src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/depend.make
@@ -62,68 +62,68 @@ include src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/flags.make
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.o: src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/flags.make
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.o: ../src/Task/ResultCombiner/ResultCombiner.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.o"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.o -c /home/andrey/fracture_detection/Galerkin/src/Task/ResultCombiner/ResultCombiner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/volume/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.o"
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.o -c /home/andrey/fracture_detection/Galerkin/volume/src/Task/ResultCombiner/ResultCombiner.cpp
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.i"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/src/Task/ResultCombiner/ResultCombiner.cpp > CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.i
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/volume/src/Task/ResultCombiner/ResultCombiner.cpp > CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.i
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.s"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/src/Task/ResultCombiner/ResultCombiner.cpp -o CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.s
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/volume/src/Task/ResultCombiner/ResultCombiner.cpp -o CMakeFiles/resultcombiner.dir/ResultCombiner.cpp.s
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.o: src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/flags.make
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.o: ../3rdparty/tinyxml/tinystr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.o"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.o -c /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/volume/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.o"
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.o -c /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.cpp
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.i"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.cpp > CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.i
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.cpp > CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.i
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.s"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.cpp -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.s
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.cpp -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.s
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.o: src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/flags.make
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.o: ../3rdparty/tinyxml/tinyxml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.o"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.o -c /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/volume/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.o"
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.o -c /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.cpp
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.i"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.cpp > CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.i
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.cpp > CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.i
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.s"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.cpp -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.s
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.cpp -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.s
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.o: src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/flags.make
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.o: ../3rdparty/tinyxml/tinyxmlerror.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.o"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.o -c /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlerror.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/volume/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.o"
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.o -c /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlerror.cpp
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.i"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlerror.cpp > CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.i
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlerror.cpp > CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.i
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.s"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlerror.cpp -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.s
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlerror.cpp -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.s
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.o: src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/flags.make
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.o: ../3rdparty/tinyxml/tinyxmlparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.o"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.o -c /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/andrey/fracture_detection/Galerkin/volume/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.o"
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.o -c /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlparser.cpp
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.i"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlparser.cpp > CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.i
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlparser.cpp > CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.i
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.s"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlparser.cpp -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.s
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && mpic++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlparser.cpp -o CMakeFiles/resultcombiner.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.s
 
 # Object files for target resultcombiner
 resultcombiner_OBJECTS = \
@@ -144,8 +144,8 @@ resultcombiner_EXTERNAL_OBJECTS =
 ../.bin/resultcombiner: src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/build.make
 ../.bin/resultcombiner: /usr/lib/x86_64-linux-gnu/libz.so
 ../.bin/resultcombiner: src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrey/fracture_detection/Galerkin/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../../.bin/resultcombiner"
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/resultcombiner.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/andrey/fracture_detection/Galerkin/volume/release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../../.bin/resultcombiner"
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/resultcombiner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/build: ../.bin/resultcombiner
@@ -153,10 +153,10 @@ src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/build: ../.bin/resultcombi
 .PHONY : src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/build
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/clean:
-	cd /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner && $(CMAKE_COMMAND) -P CMakeFiles/resultcombiner.dir/cmake_clean.cmake
+	cd /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner && $(CMAKE_COMMAND) -P CMakeFiles/resultcombiner.dir/cmake_clean.cmake
 .PHONY : src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/clean
 
 src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/depend:
-	cd /home/andrey/fracture_detection/Galerkin/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrey/fracture_detection/Galerkin /home/andrey/fracture_detection/Galerkin/src/Task/ResultCombiner /home/andrey/fracture_detection/Galerkin/release /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner /home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/andrey/fracture_detection/Galerkin/volume/release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/andrey/fracture_detection/Galerkin/volume /home/andrey/fracture_detection/Galerkin/volume/src/Task/ResultCombiner /home/andrey/fracture_detection/Galerkin/volume/release /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner /home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/Task/ResultCombiner/CMakeFiles/resultcombiner.dir/depend
 

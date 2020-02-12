@@ -212,6 +212,7 @@ struct MeshSettings
         Tabulated,
         HydraulicPressure,
         HydrodynamicResistance,
+        GaussianOsc, // my fixes
         Undefined
       };
 
@@ -330,6 +331,29 @@ struct MeshSettings
       Scalar  mediumRho;
     };
     std::vector<HydrodynamicResistanceFunctorInfo> hydrodynamicResistanceFunctorInfos;
+
+    struct GaussianOscFunctorInfo
+    {
+      GaussianOscFunctorInfo():
+        waveVector(Vector::xAxis()),
+        waveLength(1.0),
+        initialPhase(0),
+        speed(1.0),
+        shear(false),
+        startTime(0.0),
+        maxTime(-1.0)
+      {}
+
+      Vector center;
+      Vector waveVector;
+      Scalar waveLength;
+      Scalar initialPhase;
+      Scalar speed;
+      bool shear;
+      Scalar startTime;
+      Scalar maxTime;
+    };
+    std::vector<GaussianOscFunctorInfo> gaussianOscFunctorInfos;
 
     struct FreeInfo
     {
@@ -533,6 +557,30 @@ struct MeshSettings
 
         hydrodynamicResistanceFunctorInfos.push_back(hydrodynamicResistanceFunctorInfo);
         hydrodynamicResistanceFunctorElement = hydrodynamicResistanceFunctorElement->NextSiblingElement("HydrodynamicResistanceFunctor");
+      }
+
+      TiXmlElement *gaussianOscFunctorElement = vectorFunctorsElement->FirstChildElement("GaussianOscFunctor");
+      while (gaussianOscFunctorElement)
+      {
+        VectorFunctor newbie;
+        newbie.type = VectorFunctor::GaussianOsc;
+        newbie.infoIndex = gaussianOscFunctorInfos.size();
+        functors.push_back(newbie);
+
+        GaussianOscFunctorInfo gaussianOscFunctorInfo;
+
+
+        ParseVector(gaussianOscFunctorElement, "center"      , &gaussianOscFunctorInfo.center);
+        ParseVector(gaussianOscFunctorElement, "waveVector"  , &gaussianOscFunctorInfo.waveVector);
+        ParseScalar(gaussianOscFunctorElement, "waveLength"  , &gaussianOscFunctorInfo.waveLength);
+        ParseScalar(gaussianOscFunctorElement, "initialPhase", &gaussianOscFunctorInfo.initialPhase);
+        ParseScalar(gaussianOscFunctorElement, "speed"       , &gaussianOscFunctorInfo.speed);
+        ParseBool  (gaussianOscFunctorElement, "shear"       , &gaussianOscFunctorInfo.shear);
+        ParseScalar(gaussianOscFunctorElement, "startTime"   , &gaussianOscFunctorInfo.startTime);
+        ParseScalar(gaussianOscFunctorElement, "maxTime"     , &gaussianOscFunctorInfo.maxTime);
+
+        gaussianOscFunctorInfos.push_back(gaussianOscFunctorInfo);
+        gaussianOscFunctorElement = gaussianOscFunctorElement->NextSiblingElement("GaussianOscFunctor");
       }
     }
   } boundarySection;

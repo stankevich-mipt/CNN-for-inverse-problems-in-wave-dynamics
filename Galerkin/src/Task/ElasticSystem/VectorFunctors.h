@@ -204,8 +204,8 @@ struct RiekerVectorFunctor: public VectorFunctor<Space>
   }
 
   Vector waveVector;
-  Scalar  peakFrequency;
-  Scalar  delay;
+  Scalar peakFrequency;
+  Scalar delay;
 };
 
 
@@ -326,4 +326,72 @@ struct HydrodynamicResistanceFunctor: public VectorFunctor<Space>
   Scalar  alpha;
   Scalar  beta;
   Vector  v;
+};
+
+
+template <typename Space>
+struct GaussianOscVectorFunctor: public VectorFunctor<Space>
+{
+  SPACE_TYPEDEFS
+
+  GaussianOscVectorFunctor(
+    Vector center, const Vector& waveVector, Scalar waveLength, Scalar initialPhase, Scalar speed, 
+    Scalar startTime, Scalar maxTime = std::numeric_limits<Scalar>::infinity(), bool shear = false
+  ):
+    diameter(Scalar(10.0)),
+    invWaveLength(Scalar(1.0) / waveLength),
+    center(center),
+    initialPhase(initialPhase),
+    speed(speed),
+    startTime(startTime),
+    maxTime(maxTime),
+    shear(shear)
+  {
+    normal = waveVector.GetNorm();
+    magnitude = waveVector.Len();
+    tangent = waveVector.GetNorm().GetPerpendicular();
+    k = 2 * Scalar(pi) * invWaveLength;
+    omega = 2 * Scalar(pi) * speed * invWaveLength;
+  }
+
+  Vector operator()(const Vector& point, const Vector& faceNormal, Scalar time) const override
+  {
+
+    Vector value;
+
+    if ((time < maxTime && startTime <= time) || maxTime < 0)
+    {
+      Scalar mult = sin(point * normal * k - omega * time + initialPhase);
+      Scalar modulatedMagnitude = magnitude * exp(- Sqr((point - center).Len() / diameter)); 
+      if (shear)
+      {
+        value = tangent * modulatedMagnitude * mult;
+      } else
+      {     
+      // normal -> faceNormal
+        value = normal * modulatedMagnitude * mult;
+      }
+    } else
+    {
+      value = Space::Vector::zeroVector();
+    }
+    return value;
+  }
+
+private:
+
+  Vector normal;
+  Vector tangent;
+  Vector center;
+
+  Scalar diameter;
+  Scalar invWaveLength;
+  Scalar initialPhase;
+  Scalar speed;
+  Scalar magnitude;
+  Scalar startTime;
+  Scalar maxTime;
+  bool shear;
+  Scalar k;
+  Scalar omega;
 };

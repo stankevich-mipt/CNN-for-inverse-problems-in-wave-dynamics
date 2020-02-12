@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrey/fracture_detection/Galerkin/src/Task/Task
+# Install script for directory: /home/andrey/fracture_detection/Galerkin/volume/src/Task/Task
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/andrey/fracture_detection/Galerkin/.bin")
+  set(CMAKE_INSTALL_PREFIX "/home/andrey/fracture_detection/Galerkin/volume/.bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

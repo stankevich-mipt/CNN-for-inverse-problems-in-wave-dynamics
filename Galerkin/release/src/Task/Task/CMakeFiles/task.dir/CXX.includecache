@@ -1112,7 +1112,7 @@ string
 
 ../3rdparty/quadrature_integration/triangle_fekete_rule.hpp
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/tetrahedron_arbq_rule.cpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/quadrature_integration/tetrahedron_arbq_rule.cpp
 cstdlib
 -
 iostream
@@ -1128,13 +1128,13 @@ ctime
 cstring
 -
 tetrahedron_arbq_rule.hpp
-/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/tetrahedron_arbq_rule.hpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/quadrature_integration/tetrahedron_arbq_rule.hpp
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/tetrahedron_arbq_rule.hpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/quadrature_integration/tetrahedron_arbq_rule.hpp
 string
 -
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/triangle_fekete_rule.cpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/quadrature_integration/triangle_fekete_rule.cpp
 cstdlib
 -
 iostream
@@ -1150,21 +1150,21 @@ ctime
 cstring
 -
 triangle_fekete_rule.hpp
-/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/triangle_fekete_rule.hpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/quadrature_integration/triangle_fekete_rule.hpp
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/triangle_fekete_rule.hpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/quadrature_integration/triangle_fekete_rule.hpp
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.cpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.cpp
 tinystr.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.h
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.h
 assert.h
 -
 string.h
 -
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.cpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.cpp
 ctype.h
 -
 sstream
@@ -1172,9 +1172,9 @@ sstream
 iostream
 -
 tinyxml.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.h
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.h
 ctype.h
 -
 stdio.h
@@ -1192,85 +1192,85 @@ iostream
 sstream
 -
 tinystr.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.h
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlerror.cpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlerror.cpp
 tinyxml.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.h
 
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlparser.cpp
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlparser.cpp
 ctype.h
 -
 stddef.h
 -
 tinyxml.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.h
 windows.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 SolverState.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolverState.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolverState.h
 DifferentialSystem.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSystem.h
 limits
 -
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSystem.h
 SolverState.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolverState.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolverState.h
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolverState.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolverState.h
 iostream
 -
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/AdaptiveRKSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/AdaptiveRKSolver.h
 ../DifferentialSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/DormandPrinceSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/DormandPrinceSolver.h
 ../DifferentialSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/EulerSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/EulerSolver.h
 ../DifferentialSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/RK2Solver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/RK2Solver.h
 ../DifferentialSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/RungeSolver4.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/RungeSolver4.h
 ../DifferentialSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/TrapezoidSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/TrapezoidSolver.h
 ../DifferentialSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 ../../NonlinearSolvers/NonlinearFunctionSystem.h
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/NonlinearFunctionSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/NonlinearFunctionSystem.h
 ../../NonlinearSolvers/NonlinearSystemSolver.h
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/NonlinearSystemSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/NonlinearSystemSolver.h
 
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolversFactory.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolversFactory.h
 Solvers/EulerSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/EulerSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/EulerSolver.h
 Solvers/DormandPrinceSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/DormandPrinceSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/DormandPrinceSolver.h
 Solvers/TrapezoidSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/TrapezoidSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/TrapezoidSolver.h
 Solvers/RungeSolver4.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/RungeSolver4.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/RungeSolver4.h
 Solvers/AdaptiveRKSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/AdaptiveRKSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/AdaptiveRKSolver.h
 Solvers/RK2Solver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/Solvers/RK2Solver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/Solvers/RK2Solver.h
 ../NonlinearSolvers/Solvers/SimpleIterations.h
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/Solvers/SimpleIterations.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/Solvers/SimpleIterations.h
 ../NonlinearSolvers/Solvers/KrylovProjector.h
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/Solvers/KrylovProjector.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/Solvers/KrylovProjector.h
 
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/BasicVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/BasicVtkWriter.h
 string
 -
 fstream
@@ -1278,89 +1278,89 @@ fstream
 algorithm
 -
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/CellInfoVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/CellInfoVtkWriter.h
 BasicVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/BasicVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/BasicVtkWriter.h
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ../../Task/GeomMesh/GeomMesh/GeomMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 ../../Task/ElasticSystem/ElasticSystem.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystem.h
 CellInfoVtkWriter.inl
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/CellInfoVtkWriter.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/CellInfoVtkWriter.inl
 
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/CellInfoVtkWriter.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/CellInfoVtkWriter.inl
 
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/ContactVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/ContactVtkWriter.h
 BasicVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/BasicVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/BasicVtkWriter.h
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ../../Task/GeomMesh/GeomMesh/GeomMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 ../../Task/ElasticSystem/ElasticSystem.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystem.h
 set
 -
 ContactVtkWriter.inl
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/ContactVtkWriter.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/ContactVtkWriter.inl
 
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/ContactVtkWriter.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/ContactVtkWriter.inl
 
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/MeshVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/MeshVtkWriter.h
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 BasicVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/BasicVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/BasicVtkWriter.h
 ../../Task/GeomMesh/GeomMesh/GeomMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/SnapshotVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/SnapshotVtkWriter.h
 BasicVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/BasicVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/BasicVtkWriter.h
 vector
 -
 ../../Utils/Base64.h
-/home/andrey/fracture_detection/Galerkin/src/Utils/Base64.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Utils/Base64.h
 zlib.h
 -
 zconf.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/AABB2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/AABB2.h
 Vector2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector2.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/AABB3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/AABB3.h
 Vector3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector3.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Collisions.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Collisions.h
 Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Coordinates2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Coordinates2.h
 Vector2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector2.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Coordinates3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Coordinates3.h
 Vector3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector3.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Matrix2x2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Matrix2x2.h
 Vector2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector2.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Matrix3x3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Matrix3x3.h
 Vector3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector3.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/MatrixMaths.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/MatrixMaths.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Polynomial.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Polynomial.h
 map
 -
 assert.h
@@ -1370,39 +1370,39 @@ string
 stdio.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/QuadraturePrecomputer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/QuadraturePrecomputer.h
 ../../../3rdparty/quadrature_integration/legendre_rule.h
-/home/andrey/fracture_detection/3rdparty/quadrature_integration/legendre_rule.h
+/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/legendre_rule.h
 ../../../3rdparty/quadrature_integration/triangle_fekete_rule.hpp
-/home/andrey/fracture_detection/3rdparty/quadrature_integration/triangle_fekete_rule.hpp
+/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/triangle_fekete_rule.hpp
 ../../../3rdparty/quadrature_integration/tetrahedron_arbq_rule.hpp
-/home/andrey/fracture_detection/3rdparty/quadrature_integration/tetrahedron_arbq_rule.hpp
+/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/tetrahedron_arbq_rule.hpp
 Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 vector
 -
 assert.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Random.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Random.h
 stdlib.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 VectorMaths.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/VectorMaths.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/VectorMaths.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Tensor2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Tensor2.h
 Vector2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector2.h
 Matrix2x2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Matrix2x2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Matrix2x2.h
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Tensor3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Tensor3.h
 Vector3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector3.h
 Matrix3x3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Matrix3x3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Matrix3x3.h
 assert.h
 -
 math.h
@@ -1412,27 +1412,27 @@ Eigen/Dense
 Eigen/Eigenvalues
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Util.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Util.h
 limits
 -
 math.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector2.h
 Util.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Util.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Util.h
 Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 string
 -
 sstream
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector3.h
 Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 Util.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Util.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Util.h
 string
 -
 sstream
@@ -1442,229 +1442,229 @@ limits
 math.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Maths/VectorMaths.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/VectorMaths.h
 math.h
 -
 Random.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Random.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Random.h
 Util.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Util.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Util.h
 Vector3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector3.h
 Tensor3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Tensor3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Tensor3.h
 Coordinates3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Coordinates3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Coordinates3.h
 Matrix3x3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Matrix3x3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Matrix3x3.h
 AABB3.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/AABB3.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/AABB3.h
 Vector2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Vector2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Vector2.h
 Tensor2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Tensor2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Tensor2.h
 Coordinates2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Coordinates2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Coordinates2.h
 Matrix2x2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Matrix2x2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Matrix2x2.h
 AABB2.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/AABB2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/AABB2.h
 Polynomial.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Polynomial.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Polynomial.h
 Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Network/NetworkInterface.cpp
+/home/andrey/fracture_detection/Galerkin/volume/src/Network/NetworkInterface.cpp
 iostream
 -
 assert.h
 -
 NetworkInterface.h
-/home/andrey/fracture_detection/Galerkin/src/Network/NetworkInterface.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Network/NetworkInterface.h
 
-/home/andrey/fracture_detection/Galerkin/src/Network/NetworkInterface.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Network/NetworkInterface.h
 mpi.h
-/home/andrey/fracture_detection/Galerkin/src/Network/mpi.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Network/mpi.h
 vector
 -
 
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/NonlinearFunctionSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/NonlinearFunctionSystem.h
 ../DifferentialSolvers/SolverState.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolverState.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolverState.h
 
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/NonlinearSystemSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/NonlinearSystemSolver.h
 ../DifferentialSolvers/SolverState.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolverState.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolverState.h
 NonlinearFunctionSystem.h
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/NonlinearFunctionSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/NonlinearFunctionSystem.h
 
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/Solvers/KrylovProjector.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/Solvers/KrylovProjector.h
 ../NonlinearSystemSolver.h
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/NonlinearSystemSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/NonlinearSystemSolver.h
 ../../Maths/MatrixMaths.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/MatrixMaths.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/MatrixMaths.h
 
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/Solvers/SimpleIterations.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/Solvers/SimpleIterations.h
 ../../DifferentialSolvers/SolverState.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolverState.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolverState.h
 ../NonlinearSystemSolver.h
-/home/andrey/fracture_detection/Galerkin/src/NonlinearSolvers/NonlinearSystemSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/NonlinearSolvers/NonlinearSystemSolver.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/BoundaryInfos.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/BoundaryInfos.h
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ContactInfos.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ContactInfos.h
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystem.h
 VectorFunctors.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/VectorFunctors.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/VectorFunctors.h
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ElasticSystemCommon.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystemCommon.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystemCommon.h
 ElasticSystem.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystem.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystem.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystem.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystem.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystemCommon.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystemCommon.h
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 BoundaryInfos.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/BoundaryInfos.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/BoundaryInfos.h
 ContactInfos.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ContactInfos.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ContactInfos.h
 PointSources.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/PointSources.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/PointSources.h
 SourceFunctors.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/SourceFunctors.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/SourceFunctors.h
 vector
 -
 Eigen/Dense
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/Eigen/Dense
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/Eigen/Dense
 ElasticSystemCommon.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystemCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystemCommon.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystemCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystemCommon.inl
 ../VolumeMethod/FunctionGetters/BoundaryFunctionGetter.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/BoundaryFunctionGetter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/BoundaryFunctionGetter.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/IniStates.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/IniStates.h
 limits
 -
 stdexcept
 -
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/PointSources.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/PointSources.h
 limits
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/SourceFunctors.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/SourceFunctors.h
 limits
 -
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/VectorFunctors.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/VectorFunctors.h
 limits
 -
 vector
 -
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh.h
 DistributedElasticVolumeMeshCommon.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMeshCommon.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMeshCommon.h
 DistributedElasticVolumeMesh2.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh2.inl
 DistributedElasticVolumeMesh3.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh3.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh2.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh3.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMeshCommon.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMeshCommon.h
 ../Local/ElasticVolumeMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh.h
 ../../GeomMesh/MeshIO/Distributed/TransitionInfo.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Distributed/TransitionInfo.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Distributed/TransitionInfo.h
 ../../GeomMesh/MeshIO/Distributed/DistributedMeshIO.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.h
 ../../../DifferentialSolvers/DifferentialSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 vector
 -
 map
 -
 DistributedElasticVolumeMeshCommon.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMeshCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMeshCommon.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMeshCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMeshCommon.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh.h
 limits
 -
 algorithm
 -
 ../../ElasticSystem/ElasticSystem.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/ElasticSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/ElasticSystem.h
 ../../ElasticSystem/IniStates.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/IniStates.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/IniStates.h
 ../../../IO/Vtk/BasicVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/BasicVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/BasicVtkWriter.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ../../VolumeMethod/VolumeMesh/VolumeMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/VolumeMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/VolumeMesh.h
 ../../Task/SettingsParser/SolverSettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/SolverSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/SolverSettingsParser.h
 ../../GeomMesh/NodeGroupManager.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/NodeGroupManager.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/NodeGroupManager.h
 ElasticVolumeMeshCommon.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMeshCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMeshCommon.inl
 ElasticVolumeMesh2.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh2.inl
 ElasticVolumeMesh3.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh3.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh2.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMesh3.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMeshCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Local/ElasticVolumeMeshCommon.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/AABBTree.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/AABBTree.h
 vector
 -
 algorithm
 -
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/BucketStorage.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/BucketStorage.h
 assert.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/DisjointSetBuilder.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/DisjointSetBuilder.h
 vector
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/AdditionalCellInfo.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/AdditionalCellInfo.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 GeomMeshCommon.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMeshCommon.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMeshCommon.h
 iostream
 -
 assert.h
@@ -1676,47 +1676,47 @@ vector
 algorithm
 -
 GeomMesh2.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh2.inl
 GeomMesh3.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh3.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh2.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh3.inl
 ../DisjointSetBuilder.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/DisjointSetBuilder.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/DisjointSetBuilder.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMeshBase.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMeshBase.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ../TopologyReconstructor.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/TopologyReconstructor.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/TopologyReconstructor.h
 assert.h
 -
 vector
 -
 GeomMeshBase.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMeshBase.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMeshBase.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMeshBase.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMeshBase.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMeshCommon.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMeshCommon.h
 GeomMeshBase.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMeshBase.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMeshBase.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 AdditionalCellInfo.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/AdditionalCellInfo.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/AdditionalCellInfo.h
 ../AABBTree.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/AABBTree.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/AABBTree.h
 assert.h
 -
 vector
 -
 GeomMeshCommon.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMeshCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMeshCommon.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMeshCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMeshCommon.inl
 stack
 -
 set
@@ -1724,75 +1724,75 @@ set
 algorithm
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.h
 ../../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ../Local/MeshIO.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIO.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIO.h
 ../../GeomMesh/GeomMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 TransitionInfo.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Distributed/TransitionInfo.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Distributed/TransitionInfo.h
 vector
 -
 fstream
 -
 DistributedMeshIO.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Distributed/TransitionInfo.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Distributed/TransitionInfo.h
 ../../GeomMesh/GeomMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 vector
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIO.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIO.h
 MeshIOBase.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIOBase.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIOBase.h
 ../../../../IO/Vtk/MeshVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/MeshVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/MeshVtkWriter.h
 ../../../../Utils/Utils.h
-/home/andrey/fracture_detection/Galerkin/src/Utils/Utils.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Utils/Utils.h
 MeshIO.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIO.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIO.inl
 MeshIO2.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIO2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIO2.inl
 MeshIO3.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIO3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIO3.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIO.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIO.inl
 algorithm
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIO2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIO2.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIO3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIO3.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Local/MeshIOBase.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Local/MeshIOBase.h
 ../../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ../../GeomMesh/GeomMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 vector
 -
 numeric
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/NodeGroupManager.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/NodeGroupManager.h
 vector
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/TimeHierarchyLevelsManager.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/TimeHierarchyLevelsManager.h
 ../../DifferentialSolvers/SolverState.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolverState.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolverState.h
 ../../IO/Vtk/MeshVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/MeshVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/MeshVtkWriter.h
 BucketStorage.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/BucketStorage.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/BucketStorage.h
 GeomMesh/GeomMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 queue
 -
 algorithm
@@ -1804,89 +1804,89 @@ assert.h
 omp.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/TopologyReconstructor.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/TopologyReconstructor.h
 algorithm
 -
 vector
 -
 ../../Utils/Utils.h
-/home/andrey/fracture_detection/Galerkin/src/Utils/Utils.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Utils/Utils.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/MeshBuilderSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/MeshBuilderSettingsParser.h
 ParserUtil.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ParserUtil.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ParserUtil.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/MeshSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/MeshSettingsParser.h
 ParserUtil.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ParserUtil.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ParserUtil.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ParserUtil.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ParserUtil.h
 ../../../Utils/Utils.h
-/home/andrey/fracture_detection/Galerkin/src/Utils/Utils.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Utils/Utils.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ResultCombinerSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ResultCombinerSettingsParser.h
 ParserUtil.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ParserUtil.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ParserUtil.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ScheduleSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ScheduleSettingsParser.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/SettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/SettingsParser.h
 ../../../../3rdparty/tinyxml/tinyxml.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.h
 ../../../../3rdparty/tinyxml/tinystr.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.h
 limits
 -
 sstream
 -
 ParserUtil.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ParserUtil.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ParserUtil.h
 MeshSettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/MeshSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/MeshSettingsParser.h
 ScheduleSettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ScheduleSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ScheduleSettingsParser.h
 SnapshotSettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/SnapshotSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/SnapshotSettingsParser.h
 SolverSettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/SolverSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/SolverSettingsParser.h
 TaskSettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/TaskSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/TaskSettingsParser.h
 MeshBuilderSettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/MeshBuilderSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/MeshBuilderSettingsParser.h
 ResultCombinerSettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ResultCombinerSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ResultCombinerSettingsParser.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/SnapshotSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/SnapshotSettingsParser.h
 ParserUtil.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ParserUtil.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ParserUtil.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/SolverSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/SolverSettingsParser.h
 ../../../../3rdparty/tinyxml/tinyxml.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.h
 ../../../../3rdparty/tinyxml/tinystr.h
-/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.h
+/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.h
 ParserUtil.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ParserUtil.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ParserUtil.h
 string
 -
 limits
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/TaskSettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/TaskSettingsParser.h
 ParserUtil.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/ParserUtil.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/ParserUtil.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/Task.cpp
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/Task.cpp
 Task.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/Task.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/Task.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/Task.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/Task.h
 vector
 -
 fstream
@@ -1900,7 +1900,7 @@ limits
 sstream
 -
 assert.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/assert.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/assert.h
 omp.h
 -
 errno.h
@@ -1908,173 +1908,173 @@ errno.h
 ctime
 -
 ../../Network/NetworkInterface.h
-/home/andrey/fracture_detection/Galerkin/src/Network/NetworkInterface.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Network/NetworkInterface.h
 ../../Utils/Utils.h
-/home/andrey/fracture_detection/Galerkin/src/Utils/Utils.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Utils/Utils.h
 ../VolumeMethod/Spaces/Decomposer.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/Decomposer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/Decomposer.h
 ../VolumeMethod/Spaces/PolynomialPrecomputer.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/PolynomialPrecomputer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/PolynomialPrecomputer.h
 ../VolumeMethod/Spaces/DubinerPrecomputer.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/DubinerPrecomputer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/DubinerPrecomputer.h
 ../VolumeMethod/Spaces/PolynomialSpace.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/PolynomialSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/PolynomialSpace.h
 ../VolumeMethod/Spaces/FourierSpace2.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/FourierSpace2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/FourierSpace2.h
 ../VolumeMethod/Spaces/LagrangeSpace.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/LagrangeSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/LagrangeSpace.h
 ../ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticVolumeMesh/Distributed/DistributedElasticVolumeMesh.h
 ../../IO/Vtk/BasicVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/BasicVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/BasicVtkWriter.h
 ../../IO/Vtk/SnapshotVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/SnapshotVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/SnapshotVtkWriter.h
 ../../IO/Vtk/MeshVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/MeshVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/MeshVtkWriter.h
 ../../IO/Vtk/ContactVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/ContactVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/ContactVtkWriter.h
 ../../IO/Vtk/CellInfoVtkWriter.h
-/home/andrey/fracture_detection/Galerkin/src/IO/Vtk/CellInfoVtkWriter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/IO/Vtk/CellInfoVtkWriter.h
 ../../DifferentialSolvers/SolversFactory.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/SolversFactory.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/SolversFactory.h
 ../ElasticSystem/SourceFunctors.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/SourceFunctors.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/SourceFunctors.h
 ../ElasticSystem/VectorFunctors.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/VectorFunctors.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/VectorFunctors.h
 SettingsParser/SettingsParser.h
-/home/andrey/fracture_detection/Galerkin/src/Task/Task/SettingsParser/SettingsParser.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/SettingsParser/SettingsParser.h
 ../GeomMesh/MeshIO/Distributed/DistributedMeshIO.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/MeshIO/Distributed/DistributedMeshIO.h
 ../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Cell.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Cell.h
 ../../../src/Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 math.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/BoundaryFunctionGetter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/BoundaryFunctionGetter.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ../../ElasticSystem/BoundaryInfos.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/BoundaryInfos.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/BoundaryInfos.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/ContactFinder.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/ContactFinder.h
 ../../../Maths/Collisions.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Collisions.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Collisions.h
 ../../GeomMesh/AABBTree.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/AABBTree.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/AABBTree.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/FunctionGetters.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/FunctionGetters.h
 ../../ElasticSystem/BoundaryInfos.h
-/home/andrey/fracture_detection/Galerkin/src/Task/ElasticSystem/BoundaryInfos.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/ElasticSystem/BoundaryInfos.h
 GhostFunctionGetter.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/GhostFunctionGetter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/GhostFunctionGetter.h
 BoundaryFunctionGetter.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/BoundaryFunctionGetter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/BoundaryFunctionGetter.h
 SourceFunctionGetter.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/SourceFunctionGetter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/SourceFunctionGetter.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/GhostFunctionGetter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/GhostFunctionGetter.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/SourceFunctionGetter.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/SourceFunctionGetter.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/BaseSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/BaseSpace.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/Decomposer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/Decomposer.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 ../../../Maths/MatrixMaths.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/MatrixMaths.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/MatrixMaths.h
 ../../../Maths/QuadraturePrecomputer.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/QuadraturePrecomputer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/QuadraturePrecomputer.h
 ../Cell.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Cell.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Cell.h
 assert.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/DubinerPrecomputer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/DubinerPrecomputer.h
 DubinerSpace.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/DubinerSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/DubinerSpace.h
 math.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/DubinerSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/DubinerSpace.h
 BaseSpace.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/BaseSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/BaseSpace.h
 math.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/FourierSpace2.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/FourierSpace2.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/LagrangeSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/LagrangeSpace.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 BaseSpace.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/BaseSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/BaseSpace.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/PolynomialPrecomputer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/PolynomialPrecomputer.h
 ../Cell.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Cell.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Cell.h
 Decomposer.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/Decomposer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/Decomposer.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/PolynomialSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/PolynomialSpace.h
 ../../../Maths/MatrixMaths.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/MatrixMaths.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/MatrixMaths.h
 ../../../Maths/Spaces.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/Spaces.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/Spaces.h
 BaseSpace.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/Spaces/BaseSpace.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/Spaces/BaseSpace.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/VolumeMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/VolumeMesh.h
 ../../../Maths/MatrixMaths.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/MatrixMaths.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/MatrixMaths.h
 ../../../DifferentialSolvers/DifferentialSystem.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSystem.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSystem.h
 ../../../DifferentialSolvers/DifferentialSolver.h
-/home/andrey/fracture_detection/Galerkin/src/DifferentialSolvers/DifferentialSolver.h
+/home/andrey/fracture_detection/Galerkin/volume/src/DifferentialSolvers/DifferentialSolver.h
 ../../GeomMesh/TimeHierarchyLevelsManager.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/TimeHierarchyLevelsManager.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/TimeHierarchyLevelsManager.h
 ../FunctionGetters/FunctionGetters.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/FunctionGetters.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/FunctionGetters.h
 ../../GeomMesh/GeomMesh/GeomMesh.h
-/home/andrey/fracture_detection/Galerkin/src/Task/GeomMesh/GeomMesh/GeomMesh.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/GeomMesh/GeomMesh/GeomMesh.h
 algorithm
 -
 omp.h
 -
 Eigen/Dense
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/Eigen/Dense
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/Eigen/Dense
 Eigen/SparseCore
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/Eigen/SparseCore
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/Eigen/SparseCore
 VolumeMeshCommon.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/VolumeMeshCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/VolumeMeshCommon.inl
 VolumeMesh2.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/VolumeMesh2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/VolumeMesh2.inl
 VolumeMesh3.inl
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/VolumeMesh3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/VolumeMesh3.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/VolumeMesh2.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/VolumeMesh2.inl
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/VolumeMesh3.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/VolumeMesh3.inl
 ../../../Maths/QuadraturePrecomputer.h
-/home/andrey/fracture_detection/Galerkin/src/Maths/QuadraturePrecomputer.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Maths/QuadraturePrecomputer.h
 
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/VolumeMesh/VolumeMeshCommon.inl
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/VolumeMesh/VolumeMeshCommon.inl
 ../../VolumeMethod/FunctionGetters/ContactFinder.h
-/home/andrey/fracture_detection/Galerkin/src/Task/VolumeMethod/FunctionGetters/ContactFinder.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Task/VolumeMethod/FunctionGetters/ContactFinder.h
 
-/home/andrey/fracture_detection/Galerkin/src/Utils/Base64.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Utils/Base64.h
 stdint.h
 -
 stdlib.h
 -
 
-/home/andrey/fracture_detection/Galerkin/src/Utils/Utils.h
+/home/andrey/fracture_detection/Galerkin/volume/src/Utils/Utils.h
 vector
 -
 set

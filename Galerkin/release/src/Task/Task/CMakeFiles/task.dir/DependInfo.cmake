@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/andrey/fracture_detection/Galerkin/src/Task/Task/Task.cpp" "/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir/Task.cpp.o"
-  "/home/andrey/fracture_detection/Galerkin/src/Network/NetworkInterface.cpp" "/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir/__/__/Network/NetworkInterface.cpp.o"
-  "/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/tetrahedron_arbq_rule.cpp" "/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/quadrature_integration/tetrahedron_arbq_rule.cpp.o"
-  "/home/andrey/fracture_detection/Galerkin/3rdparty/quadrature_integration/triangle_fekete_rule.cpp" "/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/quadrature_integration/triangle_fekete_rule.cpp.o"
-  "/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinystr.cpp" "/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.o"
-  "/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxml.cpp" "/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.o"
-  "/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlerror.cpp" "/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.o"
-  "/home/andrey/fracture_detection/Galerkin/3rdparty/tinyxml/tinyxmlparser.cpp" "/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.o"
+  "/home/andrey/fracture_detection/Galerkin/volume/src/Task/Task/Task.cpp" "/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/CMakeFiles/task.dir/Task.cpp.o"
+  "/home/andrey/fracture_detection/Galerkin/volume/src/Network/NetworkInterface.cpp" "/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/CMakeFiles/task.dir/__/__/Network/NetworkInterface.cpp.o"
+  "/home/andrey/fracture_detection/Galerkin/volume/3rdparty/quadrature_integration/tetrahedron_arbq_rule.cpp" "/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/quadrature_integration/tetrahedron_arbq_rule.cpp.o"
+  "/home/andrey/fracture_detection/Galerkin/volume/3rdparty/quadrature_integration/triangle_fekete_rule.cpp" "/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/quadrature_integration/triangle_fekete_rule.cpp.o"
+  "/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinystr.cpp" "/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/tinyxml/tinystr.cpp.o"
+  "/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxml.cpp" "/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/tinyxml/tinyxml.cpp.o"
+  "/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlerror.cpp" "/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/tinyxml/tinyxmlerror.cpp.o"
+  "/home/andrey/fracture_detection/Galerkin/volume/3rdparty/tinyxml/tinyxmlparser.cpp" "/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/CMakeFiles/task.dir/__/__/__/3rdparty/tinyxml/tinyxmlparser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

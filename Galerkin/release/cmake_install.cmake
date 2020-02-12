@@ -1,8 +1,8 @@
-# Install script for directory: /home/andrey/fracture_detection/Galerkin
+# Install script for directory: /home/andrey/fracture_detection/Galerkin/volume
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/andrey/fracture_detection/Galerkin/.bin")
+  set(CMAKE_INSTALL_PREFIX "/home/andrey/fracture_detection/Galerkin/volume/.bin")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/andrey/fracture_detection/Galerkin/release/src/Task/Task/cmake_install.cmake")
-  include("/home/andrey/fracture_detection/Galerkin/release/src/Task/MeshBuilder/cmake_install.cmake")
-  include("/home/andrey/fracture_detection/Galerkin/release/src/Task/ResultCombiner/cmake_install.cmake")
+  include("/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/Task/cmake_install.cmake")
+  include("/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/MeshBuilder/cmake_install.cmake")
+  include("/home/andrey/fracture_detection/Galerkin/volume/release/src/Task/ResultCombiner/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/andrey/fracture_detection/Galerkin/release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/andrey/fracture_detection/Galerkin/volume/release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
